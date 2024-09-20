@@ -1,16 +1,14 @@
-package bigdecimal;
+package weeklytest1;
 
 import lombok.Getter;
-
-import java.math.BigDecimal;
 
 @Getter
 public abstract class Product implements Promotion {
     private String name;
-    private BigDecimal price;
-    private double weight;
+    private int price;
+    private int weight;
 
-    Product(String name, BigDecimal price, double weight) {
+    Product(String name, int price, int weight) {
         this.name = name;
         this.price = price;
         this.weight = weight;

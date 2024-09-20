@@ -1,4 +1,4 @@
-package bigdecimal;
+package weeklytest1.bigdecimal;
 
 import java.math.BigDecimal;
 

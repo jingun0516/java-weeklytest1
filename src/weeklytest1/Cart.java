@@ -1,3 +1,5 @@
+package weeklytest1;
+
 public class Cart {
     private Product[] products;
 
