@@ -22,10 +22,15 @@ public class AddressBook {
     }
 
     void searchContact(String name) {
+        boolean checked = false;
         for(Contact contact : contacts) {
             if(contact.getName().equals(name)) {
                 contact.display();
+                checked = true;
             }
+        }
+        if(!checked) {
+            System.out.println("연락처를 찾을 수 없습니다.");
         }
     }
 }
